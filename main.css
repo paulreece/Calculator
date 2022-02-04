@@ -1,0 +1,207 @@
+.calc-container {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-areas: "box1 box2 box2 box2"
+                         "box3 box4 box5 box6"
+                         "box7 box8 box9 box10"
+                         "box11 box12 box13 box14"
+                         "box15 box16 box17 box18";
+    background-color: green;
+
+}
+
+.c {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box1;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.disp {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box2;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.seven {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box3;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+.eight {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box4;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.nine {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box5;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.slash {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box6;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(87, 146, 87);
+}
+.four {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box7;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.five {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box8;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.six {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box9;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.ex {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box10;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(87, 146, 87);
+}
+.one {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box11;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.two {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box12;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.three {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box13;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.dash {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    grid-area: box14;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(87, 146, 87);
+}
+.zero {
+    border: 1px solid white;
+    grid-area: box15;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.dot {
+    border: 1px solid white;
+    grid-area: box16;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.equals {
+    border: 1px solid white;
+    grid-area: box17;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.plus {
+    border: 1px solid white;
+    grid-area: box18;
+    text-align: center;
+    padding: 33px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(87, 146, 87);
+}
